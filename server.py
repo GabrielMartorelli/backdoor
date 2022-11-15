@@ -91,3 +91,4 @@ sock.listen(5)
 
 target, ip = sock.accept()
 print(colored("+ Connected with: " + str(ip), "green"))
+t_commun()
